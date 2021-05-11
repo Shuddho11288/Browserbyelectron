@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+
+
+    
+    <div class="currentdownload" id="d">
+        No Downloads.
+    </div>
+    <div class="search">
+        <input id="uri" placeholder="Search anything"></input>
+        <button onclick="OpenUrl()">Search</button>
+    </div>
+    <webview id="view" src="https://www.google.com/"></webview>
+
+    <!--calling the renderer.js file-->
+    <script src="./renderer.js"></script>
+</body>
+</html>
